@@ -57,6 +57,14 @@ pip install .
 
 This will load the defined dependencies in `pyproject.toml` and install them inside the VENV.
 
+Note that the module `distutils` is not part of Python 3.12 any more. Hence it is recommended to use an older version of Python.
+
+Also note that you need to install PyQt5 manually when working on a Mac. This can be done with homebrew:
+
+```
+brew install PyQt@5
+```
+
 ## Content
 
 [3DCV_Qt_Stereo.py](./3DCV_Qt_Stereo.py) is a tool to illustrate the epipolar geometry and shows how to compute the fundamental matrix. On start the fundamental matrix is calculated from features in two images. You can click points in one image and the corresponding epipolar line is drawn in the other.
