@@ -72,3 +72,5 @@ brew install PyQt@5
 The images can also be rectified.
 
 In the lower part, the features including their matches can be shown as well as all epipolar lines for all found feature points.
+
+[3DCV_EpipolarIllustration.py](./3DCV_EpipolarIllustration.py) is a tool to illustrate the epipolar geometry. You can change the 3D point position as well as the angle of one camera with sliders. The code has been generated completely by an CoPilot agent from a single prompt.
